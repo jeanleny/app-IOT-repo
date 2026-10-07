@@ -14,7 +14,7 @@ spec:
     spec:           
       containers:
         - name: app1
-          image: wil42/playground    #l'image a choper sur dockerhub
+          image: wil42/playground:v1    #l'image a choper sur dockerhub
           args:
             - "-text=HEYOW from app1"
             - "-listen=:2222"
